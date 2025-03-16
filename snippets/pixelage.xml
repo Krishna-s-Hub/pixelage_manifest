@@ -9,6 +9,9 @@
            fetch="https://gitea.com/clarencelol"
            revision="refs/heads/15" />
 
+  <remote name="custom"
+           fetch="https://github.com/" />
+
   <remote name="gitlab"
            fetch="https://gitlab.com/" />
 
@@ -35,7 +38,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/release" name="android_build_release" groups="pdk,tradefed" remote="pixelage" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="pixelage" >
+  <project path="build/soong" name="Krishna-s-Hub/android_build_soong" groups="pdk,tradefed" remote="custom" revision="15" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
