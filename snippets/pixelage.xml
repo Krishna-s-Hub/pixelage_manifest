@@ -52,7 +52,7 @@
 
   <!-- frameworks -->
   <project path="frameworks/av" name="pixelage_av" revision="15" remote="custom" />
-  <project path="frameworks/base" name="pixelage_base" remote="custom" />
+  <project path="frameworks/base" name="pixelage_base" revision="15" remote="custom" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pixelage" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="pixelage" />
 
