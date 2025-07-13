@@ -40,7 +40,7 @@
   </project>
 
   <!-- device -->
-  <project path="device/lineage/sepolicy" name="android_device_pixelage_sepolicy" remote="pixelage" />
+  <project path="device/lineage/sepolicy" name="android_device_pixelage_sepolicy" revision="15" remote="custom" />
 
   <!-- external -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="pixelage" />
